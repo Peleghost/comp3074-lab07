@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Comp3074lab07">
         <activity
+            android:name=".BooksActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
